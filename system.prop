@@ -1,0 +1,43 @@
+# Audio
+audio.offload.min.duration.secs=30
+persist.vendor.audio.hac.enable=false
+persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24
+
+# Camera
+camera.disable_zsl_mode=true
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.aperture,org.lineageos.aperture.dev
+
+# Charger
+ro.charger.disable_init_blank=true
+
+# Display
+debug.gralloc.gfx_ubwc_disable=0
+debug.sf.enable_hwc_vds=1
+persist.vendor.color.matrix=2
+
+# Fwk detect
+ro.vendor.qti.va_aosp.support=1
+
+# LMKD
+ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=15
+
+# Media
+media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+
+# Netflix
+ro.netflix.bsp_rev=Q855-16947-1
+
+# SSR
+persist.vendor.ssr.restart_level=ALL_ENABLE
+
+# LogSpamControl
+persist.log.tag.vendor.qti.bluetooth@1.0-ibs_handler=S
+persist.log.tag.ACDB-LOADER=S
+persist.log.tag.ResourcesCompat=S
+persist.log.tag.CVP=S
+persist.log.tag.CamX=S
+persist.log.tag.a2dp_codec=S
+
+# Updater
+lineage.updater.uri=https://raw.githubusercontent.com/dev-harsh1998/ota/master/nb.json

@@ -1,4 +1,10 @@
 Device configuration for Xiaomi Mi Pad 5 (nabu)
+
+branch:
+CrDroid:
+DerpFest:
+Lineageos
+
 =========================================
 
 The Xiaomi Mi Pad 5 (codenamed _"nabu"_) is a tablet from Xiaomi.
